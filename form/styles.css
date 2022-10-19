@@ -1,0 +1,80 @@
+*{
+	
+	box-sizing: border-box;
+}
+body{
+	background: black;
+	color: #342222fc;
+	font-family: arial;
+	font-size: 14px;
+}
+div{
+	border-radius: 10px 20px;
+	width: 100%;
+	margin: 20px auto;
+	padding: 20px;
+	padding: 10px 20px;
+
+	
+}
+div.form{
+	background: white;
+	margin: 10px auto ;
+	width: 600px;
+	padding-bottom: 30px;
+
+
+	
+}
+input[type="number"]{
+	width: 200px;
+}
+input,select,textarea{
+	border-radius: 20px 20px 10px 10px ;
+	padding: 10px 20px;
+	background-color: #eee;
+	margin-top: 10px;
+	border: none;
+}
+label{
+margin-top: 40px;
+}
+textarea{
+	margin-top: 20px;
+	border: 1px dash black;
+	height: 100px;
+	width: 220px;
+}
+#survey-form{
+	border-top: 1px solid black;
+}
+button{
+	background-color: green;
+	color: yellow;
+	padding: 10px 20px;
+	margin: 10px 20px;
+	width: 200px;
+	border-radius: 100px;
+	border: none;
+	transition: 0.56s;
+	display: block;
+}
+input:hover,select:hover{
+border-style: none none solid none;
+}
+button:hover{
+	background-color: yellow;
+	color: green;
+	cursor: pointer;
+	transform: rotate(4deg) scaleY(1);
+}
+#reset{
+	background-color: red;
+	color: black;
+}
+#reset:hover{
+	background-color: black;
+	color: red;
+	transform: rotate(-4deg) scaleY(1);
+}
+
